@@ -5,10 +5,6 @@
 function Header() {
     return (
         <>
-
-        // header section
-
-
             <div className="background_header">
                 <div className="container">
                     <img src={require('../assest/img/header_img/ticket-percent.png')} alt="" />
