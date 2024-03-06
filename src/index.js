@@ -4,19 +4,25 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/header';
+import SignUp from './components/page/signup';
+import SignIn from './components/page/signin'
 import Footer from './components/footer';
 import HeroSection from './Home_section/hero_section';
-import Shipping from './Home_section/shipping_section';
-import AboutSection from './Home_section/about_section';
+import Table from './components/about_tables';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+  
+    <SignUp/>
+    <SignIn />
+    
     <Header />
     <HeroSection/>
     <Shipping />
     <AboutSection />
     <Footer />
+    <Table />
   </React.StrictMode>
 );
 

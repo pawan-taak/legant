@@ -1,0 +1,71 @@
+.main-section{
+    display: flex;
+    border: 1px solid black;
+  
+
+    
+}
+
+.rigth-section{
+        max-width: 736px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+         
+}
+.main-text{
+    
+        left: 380px;
+        top: 25px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    
+}
+.left-section{
+    BORDER: 1PX SOLID white;
+    display: flex;
+    flex-direction: column;
+    MAX-WIDTH: 735PX;
+    WIDTH: 100%;
+    /* JUSTIFY-CONTENT: center; */
+}
+.signupbtn{
+    max-width: 354px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.text-left-section{
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 205px;
+    padding-left: 45px;
+    padding-right: 85px;
+}
+.form-section{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    /* padding-top: 25px; */
+     
+}
+.sign-section{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+.input-text{
+    outline: none;
+        border: 0px solid;
+        max-width: 250px;
+        width: 100%;
+        color: #CCC;
+
+}
+.icon-img{
+    max-width: 25px;
+}

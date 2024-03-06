@@ -150,14 +150,13 @@
    letter-spacing: -0.6000000238418579px;
 
 
- }
-
- .hero_small_heading {
-   font-family: Poppins;
-   font-size: 28px;
-   font-weight: 500;
-   line-height: 34px;
-   letter-spacing: -0.6000000238418579px;
+}
+.hero_small_heading{
+font-family: Poppins;
+font-size: 28px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: -0.6000000238418579px;
 
  }
 
@@ -258,293 +257,39 @@
 
 
 
- }
-
- .home_secondary {
-   font-family: Poppins;
-   font-size: 14px;
-   font-weight: 400;
-   line-height: 24px;
-   letter-spacing: 0em;
-
-
- }
-
- .page_primary {
-   font-family: Inter;
-   font-size: 12px;
-   font-weight: 700;
-   line-height: 12px;
-   letter-spacing: 0em;
-
-
- }
-
- .page_secondary {
-   font-family: Inter;
-   font-size: 12px;
-   font-weight: 600;
-   line-height: 20px;
-   letter-spacing: 0px;
-
- }
-
- .page_middle {
-   font-family: Inter;
-   font-size: 12px;
-   font-weight: 400;
-   line-height: 20px;
-   letter-spacing: 0px;
-
-
- }
-
- @media(max-width:648px) {
-
-
-   .h_primary {
-
-     font-family: Poppins;
-     font-size: 28px;
-     font-weight: 500;
-     line-height: 34px;
-     letter-spacing: -0.6000000238418579px;
-   }
-
-   .h_secondary {
-     font-family: Poppins;
-     font-size: 24px;
-     font-weight: 500;
-     line-height: 24px;
-     letter-spacing: 0px;
-
-   }
-
-   .h_xxl_heading {
-     font-family: Inter;
-     font-size: 14px;
-     font-weight: 400;
-     line-height: 22px;
-     letter-spacing: 0px;
-
-   }
-
-   .h_xl_heading {
-     font-family: Inter;
-     font-size: 16px;
-     font-weight: 500;
-     line-height: 28px;
-     letter-spacing: -0.4000000059604645px;
-
-   }
-
-   .h_sm_heading {
-     font-family: Inter;
-     font-size: 12px;
-     font-weight: 600;
-     line-height: 20px;
-     letter-spacing: 0px;
-
-   }
-
-   .h_xls_heading {
-     font-size: 14px;
-     font-weight: 500;
-   }
-
-   .f_secondary {
-     font-family: Inter;
-     font-size: 14px;
-     font-weight: 400;
-     line-height: 22px;
-     letter-spacing: 0px;
-
-   }
-
-   .f_sm_heading {
-     font-size: 12px;
-     font-weight: 400;
-     line-height: 20px;
-     letter-spacing: 0em;
-
-   }
-
-   /* hero common mob */
-
-   .hero_primary {
-     font-family: Poppins;
-     font-size: 40px;
-     font-weight: 500;
-     line-height: 44px;
-     letter-spacing: -0.4000000059604645px;
-
-   }
-
-   .hero_secondary {
-
-     font-family: Poppins;
-     font-size: 40px;
-     font-weight: 500;
-     line-height: 44px;
-     letter-spacing: -0.4000000059604645px;
-
-
-   }
-
-   .hero_big_heading {
-
-     font-family: Poppins;
-     font-size: 34px;
-     font-weight: 500;
-     line-height: 38px;
-     letter-spacing: -0.6000000238418579px;
-
-
-   }
-
-   .hero_medium_heading {
-     font-family: Poppins;
-     font-size: 28px;
-     font-weight: 500;
-     line-height: 34px;
-     letter-spacing: -0.6000000238418579px;
-
-   }
-
-   .hero_small_heading {
-     font-family: Poppins;
-     font-size: 20px;
-     font-weight: 500;
-     line-height: 28px;
-     letter-spacing: 0px;
-
-
-   }
-
-   .hero_xxl_text {
-     font-family: Inter;
-     font-size: 20px;
-     font-weight: 600;
-     line-height: 32px;
-     letter-spacing: 0px;
-   }
-
-   .hero_xl_text {
-     font-family: Inter;
-     font-size: 16px;
-     font-weight: 600;
-     line-height: 26px;
-     letter-spacing: 0px;
-
-
-   }
-
-   .hero_sm_text {
-     font-family: Inter;
-     font-size: 16px;
-     font-weight: 400;
-     line-height: 26px;
-     letter-spacing: 0px;
-
-
-   }
-
-   .hero_weight_first {
-     font-family: Inter;
-     font-size: 14px;
-     font-weight: 600;
-     line-height: 22px;
-     letter-spacing: 0px;
-
-   }
-
-   .hero_weight_second {
-     font-family: Inter;
-     font-size: 18px;
-     font-weight: 500;
-     line-height: 32px;
-     letter-spacing: -0.4000000059604645px;
-   }
-
-   .home_weight_first {
-     font-family: Inter;
-     font-size: 16px;
-     font-weight: 700;
-     line-height: 16px;
-     letter-spacing: 0em;
-   }
-
-   .home_weight_second {
-     font-family: Inter;
-     font-size: 14px;
-     font-weight: 600;
-     line-height: 22px;
-     letter-spacing: 0px;
-
-   }
-
-   .home_weight_third {
-     font-family: Inter;
-     font-size: 16px;
-     font-weight: 500;
-     line-height: 28px;
-     letter-spacing: -0.4000000059604645px;
-
-   }
-
-   .home_weight_fourth {
-     font-family: Inter;
-     font-size: 14px;
-     font-weight: 600;
-     line-height: 22px;
-     letter-spacing: 0px;
-
-   }
-
-   .home_primary {
-     font-family: Inter;
-     font-size: 12px;
-     font-weight: 600;
-     line-height: 20px;
-     letter-spacing: 0px;
-
-   }
-
-   .home_secondary {
-     font-family: Poppins;
-     font-size: 14px;
-     font-weight: 400;
-     line-height: 24px;
-     letter-spacing: 0em;
-
-   }
-
-   .page_primary {
-     font-family: Inter;
-     font-size: 12px;
-     font-weight: 700;
-     line-height: 12px;
-     letter-spacing: 0em;
-
-   }
-
-   .page_secondary {
-     font-family: Inter;
-     font-size: 12px;
-     font-weight: 600;
-     line-height: 20px;
-     letter-spacing: 0px;
-
-   }
-
-   .page_middle {
-     font-family: Inter;
-     font-size: 12px;
-     font-weight: 400;
-     line-height: 20px;
-     letter-spacing: 0px;
-
-   }
-
-
- }
+}
+.home_secondary{
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  
+  
+}
+.page_primary{
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  
+  
+}
+.page_secondary{
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  
+}
+.page_middle{
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  
+  
+}
