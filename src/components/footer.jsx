@@ -6,8 +6,8 @@ import '../assest/css/footer.css'
 function Footer() {
     return (
         <>
-            <div className='footer_image'>
-                {/* <img src={require('../assest/img/footer_img/footer_Placeholder.png')} alt="" /> */}
+            <div className='footer_image_section'>
+                
                 <div className='footer_signup_section'>
                     <div>
                         <p className='h_primary'>Join Our Newsletter</p>
@@ -20,6 +20,7 @@ function Footer() {
                         <button className='footer_signup_text h_xl_heading'>signup</button>
                     </div>
                 </div>
+                <img src={require('../assest/img/footer_img/footer_Placeholder.png')} alt="" className='footer_back_img'/>
             </div>
 
             {/* footer bottom section */}

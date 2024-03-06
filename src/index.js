@@ -6,12 +6,16 @@ import reportWebVitals from './reportWebVitals';
 import Header from './components/header';
 import Footer from './components/footer';
 import HeroSection from './Home_section/hero_section';
+import Shipping from './Home_section/shipping_section';
+import AboutSection from './Home_section/about_section';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
     <HeroSection/>
+    <Shipping />
+    <AboutSection />
     <Footer />
   </React.StrictMode>
 );

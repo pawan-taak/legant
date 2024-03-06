@@ -22,7 +22,7 @@ function HeroSection() {
             <div className='container'>
                 <div className='shop_section'>
 
-                    <div className='shop_about_section shop_grid_living'>
+                    <div className='shop_about_section'>
                         <div className='shop_info'>
                             <p className='hero_medium_heading'>Living Room</p>
                             <div className='shop_next_arrow'>
@@ -34,7 +34,7 @@ function HeroSection() {
                     </div>
 
 
-                    <div className='shop_about_section'>
+                    <div className='shop_bedroom_section'>
                         <div className='shop_info_common'>
                             <p className='hero_medium_heading'>Bedroom</p>
                             <div className='shop_next_arrow'>
@@ -46,7 +46,7 @@ function HeroSection() {
                     </div>
 
 
-                    <div className='shop_about_section'>
+                    <div className='shop_bedroom_section'>
                         <div className='shop_info_common'>
                             <p className='hero_medium_heading'>Kitchen</p>
                             <div className='shop_next_arrow'>

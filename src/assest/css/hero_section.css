@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+    padding: 0 0 40px 0;
  }
 .hero_para{
     max-width:424px;
@@ -21,7 +22,7 @@
     row-gap: 24px;
     column-gap: 24px;
 }
-.shop_grid_living{
+.shop_about_section{
     grid-row: 1/3;
 }
 .shop_main_img{
@@ -55,6 +56,11 @@
     flex-direction: column;
     position: absolute;
     z-index: 1;
-    padding: 150px 0 0 48px;
+    padding: 0 0 48px 48px;
     align-items: baseline;
+ }
+ .shop_bedroom_section{
+    display: flex;
+    align-items: end;
+    
  }

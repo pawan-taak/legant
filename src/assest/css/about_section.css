@@ -1,0 +1,16 @@
+.about_image {
+    max-width: 532px;
+}
+
+.about_main_section {
+    display: flex;
+}
+
+.about_text_bar {
+    display: flex;
+    flex-direction: column;
+    padding: 36px 160px 0px 72px;
+    gap: 24px;
+    background-color: #F3F5F7;
+    
+}

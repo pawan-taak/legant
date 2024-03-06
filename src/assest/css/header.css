@@ -11,11 +11,11 @@
 }
 .ticket_percent{
   max-width: 24px;
-  
+  max-height: 20px;
 }
 .header_icon_section img{
   max-width: 24px;
-  max-height: 24px;
+  max-height: 20px;
 }
 .menu_bar_section{
   display: flex;
@@ -26,6 +26,7 @@
 .menu_text_bar{
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 
 .header_icon_section{
