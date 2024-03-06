@@ -9,6 +9,8 @@ import SignIn from './components/page/signin'
 import Footer from './components/footer';
 import HeroSection from './Home_section/hero_section';
 import Table from './components/about_tables';
+ 
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,8 +21,7 @@ root.render(
     
     <Header />
     <HeroSection/>
-    <Shipping />
-    <AboutSection />
+    
     <Footer />
     <Table />
   </React.StrictMode>
