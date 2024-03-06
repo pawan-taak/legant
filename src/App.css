@@ -148,6 +148,13 @@ line-height: 34px;
 letter-spacing: -0.6000000238418579px;
 
 }
+.hero-x-heading{
+font-size: 24px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0px;
+
+}
 .hero_xxl_text{
   font-family: Inter;
   font-size: 20px;
@@ -272,4 +279,21 @@ letter-spacing: -0.6000000238418579px;
   letter-spacing: 0px;
   
   
+}
+/* signup.css */
+.rigth-section{
+  max-width: 736px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+   
+}
+.main-text{
+
+  left: 283px;
+  top: 25px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
 }

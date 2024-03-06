@@ -4,11 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/header';
+import SignUp from './components/page/signup';
+import SignIn from './components/page/signin';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
+    {/* <Header /> */}
+    <SignUp/>
+    <SignIn />
+    
   </React.StrictMode>
 );
 
