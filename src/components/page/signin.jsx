@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom'
 import '../../assest/css/signin.css'
+
 function SignIn(){
     return(
         <>
@@ -23,7 +25,8 @@ function SignIn(){
                         </div>
                       
                     </div>
-                    <button type="submit"  onClick={SignIn} className="signin-btn home_weight_third">Sign In</button>
+                    
+                    <Link to="/" className="signin-btn home_weight_third">Sign In</Link>
                     </div>
                    
                 </div>

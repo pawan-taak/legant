@@ -1,4 +1,5 @@
 
+import { Link ,Outlet} from "react-router-dom"
 import "../../assest/css/signup.css"
 function SignUp() {
     return(
@@ -13,7 +14,7 @@ function SignUp() {
             <div className="text-left-section">
     <div className=" sign-section">
       <h1 className="hero_big_heading">Sign Up</h1>
-      <p className="home_weight_fourth">Already have an account? Sign in</p>
+      <p className="home_weight_fourth">Already have an account?<Link to="/signin">Sign in</Link> </p>
       </div>
       <div className="form-section"> 
       <input type="text" placeholder="your name"  className="input-text"/><hr/>
@@ -25,6 +26,8 @@ function SignUp() {
       <p  className="home_weight_second"><input type="checkbox"/>I agree with Privacy Policy and Terms of Use</p>
       </div>
       <button type="submit"  onClick={SignUp} className="signupbtn home_weight_third">Sign Up</button>
+      
+      <li></li>
       </div>
         </div>
         </div>
