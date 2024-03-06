@@ -7,7 +7,7 @@ function SignUp() {
             <div className="main-section">
             <div className="rigth-section">
                 <h2 className="hero-x-heading main-text">3legant.</h2>
-                <img src={require("../../assest/img/signup.png.png")} alt="#" />
+                <img src={require("../../assest/img/signup.png.png")} alt="#" className="img-signup" />
             </div>
             <div className="left-section">
             <div className="text-left-section">
