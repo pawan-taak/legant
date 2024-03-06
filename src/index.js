@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Header from './components/header';
 import Footer from './components/footer';
 import HeroSection from './Home_section/hero_section';
+import Table from './components/about_tables';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
     <Header />
     <HeroSection/>
     <Footer />
+    <Table />
   </React.StrictMode>
 );
 
