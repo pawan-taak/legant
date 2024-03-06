@@ -6,7 +6,7 @@ function SignIn(){
             <div className='signin-main-section'>
                 <div className='signin-rigth-section'>
                 <h2 className="hero-x-heading  signin-main-text">3legant.</h2>
-                <img src={require("../../assest/img/signup.png.png")} alt="#" />
+                <img src={require("../../assest/img/signup.png.png")} alt="#" className='sigin_image'/>
                 </div>
                 <div  className='signin-left-section'>
                     <div className='signin-section-left'>

@@ -2,21 +2,17 @@
     display: flex;
     border: 1px solid black;
 }
-
-.signin-rigth-section{
-    
-    max-width: 736px;
-    width: 100%;
+.sigin_image{
+    position: relative;
+}
+.signin-rigth-section{    
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 .signin-main-text{
-        
-    left: 207px;
-    top: 40px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+    padding: 25px 0 0 0;
+        z-index: 1;
+     position: absolute;
 }
 .signin-left-section{
     BORDER: 1PX SOLID white;

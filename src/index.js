@@ -5,8 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/header';
 import SignUp from './components/page/signup';
-import SignIn from './components/page/signin';
-
+import SignIn from './components/page/signin'
 import Footer from './components/footer';
 import HeroSection from './Home_section/hero_section';
 
