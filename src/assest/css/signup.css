@@ -1,26 +1,20 @@
 .main-section{
-    display: flex;
-    border: 1px solid black;
-  
-
-    
+    display: flex; 
 }
 
 .rigth-section{
-        max-width: 736px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
+    display: flex;
+    justify-content: center;
          
 }
 .main-text{
+    position: absolute;
+    padding: 25px 0 0 0;
+    z-index: 1;
     
-        left: 380px;
-        top: 25px;
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-    
+}
+.img-signup{
+    position: relative;
 }
 .left-section{
     BORDER: 1PX SOLID white;
