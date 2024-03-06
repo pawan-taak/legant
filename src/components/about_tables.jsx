@@ -1,5 +1,5 @@
 
-import { useState } from 'react'
+import { useState , useRef} from 'react'
 import '../assest/css/about_table.css'
 function Table() {
     const [count, setcount] = useState(0)
@@ -30,7 +30,7 @@ function Table() {
                                 <h2 className='page_middle'>11 Reviews</h2>
                             </div>
 
-                            <h2 className='h_primary'>Tray Table</h2>
+                            <h2 className='h_primary about_tray_table'>Tray Table</h2>
                             <p className='para h_sm_heading'>Buy one or buy a few and make every space where you sit more convenient.
                                 Light and easy to move around with removable tray top, handy for serving snacks.</p>
                             <div className='price_discount'>
@@ -40,7 +40,7 @@ function Table() {
                         </div>
                         <hr />
                         <div className='expiry_offer'>
-                            <h2 className='home_weight_second'>Offer expires in:</h2>
+                            <h2 className='home_weight_second about_offer'>Offer expires in:</h2>
                             <div className='offer-timing hero_medium_heading'>
                                 <div>
                                     <div className='remeing_offer'>02</div>
@@ -63,7 +63,7 @@ function Table() {
                             <hr />
                         </div>
                         <div className='measurements'>
-                            <h2 className='home_weight_second meas_heading'>Measurements</h2>
+                            <h2 className='home_weight_second meas_heading measureing'>Measurements</h2>
                             <div className='hero_sm_text'>17 1/2x20 5/8 "</div>
                             <h2 className='home_weight_second meas_heading'>Choose Color </h2>
                             <h2 className='hero_sm_text'>Black</h2>
@@ -82,8 +82,10 @@ function Table() {
                             </div>
 
                             <div className='wishlist'>
-                                <img className='like_img' src={require('../assest/icon/about_table_icon/like.png')} />
-                                <h2 className='hero_weight_second'>Wishlist</h2>
+                                {/* <div> */}
+                                    <img className='like_img' src={require('../assest/icon/about_table_icon/like.png')} />
+                                    <h2 className='hero_weight_second'>Wishlist</h2>
+                                {/* </div> */}
                             </div>
                         </div>
                         <div className='cart_btn'>
@@ -93,11 +95,11 @@ function Table() {
                         <div>
                             <div className='no_category1'>
                                 <h2 className='page_middle '>SKU</h2>
-                                <div>1117</div>
+                                <div className='no1'>1117</div>
                             </div>
                             <div className='no_category2'>
                                 <h2 className='page_middle'>CATEGORY</h2>
-                                <div>Living Room, Bedroom</div>
+                                <div className='no1'>Living Room, Bedroom</div>
                             </div>
                         </div>
                     </div>
