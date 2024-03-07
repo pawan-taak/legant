@@ -5,6 +5,8 @@
 .rigth-section{
     display: flex;
     justify-content: center;
+    max-height: 400px;
+    height: 100%;
          
 }
 .main-text{
@@ -20,8 +22,11 @@
     BORDER: 1PX SOLID white;
     display: flex;
     flex-direction: column;
-    MAX-WIDTH: 735PX;
-    WIDTH: 100%;
+    MAX-WIDTH: 575PX;
+    WIDTH: 100%;  
+     max-height: 400px;
+    height: 100%;
+
     /* JUSTIFY-CONTENT: center; */
 }
 .signupbtn{
@@ -30,12 +35,16 @@
     background-color: black;
     color: white;
 }
+.signupbtn:hover{
+    background-color: white;
+    color: black;
+}
 .text-left-section{
 
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding-top: 205px;
+    padding-top: 100px;
     padding-left: 45px;
     padding-right: 85px;
 }
@@ -45,6 +54,20 @@
     gap: 32px;
     /* padding-top: 25px; */
      
+}
+.in-text{
+    color: #38CB89;
+    padding-left: 10px;
+}
+.in-text:hover{
+    color: black;
+}
+.signup-info{
+    color: #CCC;
+}
+.checkbox{
+    display: flex;
+    gap: 8px;
 }
 .sign-section{
     display: flex;
@@ -63,3 +86,4 @@
 .icon-img{
     max-width: 25px;
 }
+
