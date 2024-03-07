@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <>
             <HeroSection />
-            {/* <Arrival /> */}
+            <Arrival />
             <Shipping />
             <AboutSection />
         </>

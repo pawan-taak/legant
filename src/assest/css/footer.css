@@ -72,8 +72,12 @@ position: relative;
 .footer_menu_text {
   display: flex;
   gap: 40px;
+  color: white;
 }
-
+.footer_menu_text li:hover{
+  color: #E8ECEF;
+  cursor: pointer;
+}
 .footer_bottom_section {
   display: flex;
   justify-content: space-between;

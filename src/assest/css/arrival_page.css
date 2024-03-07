@@ -1,0 +1,46 @@
+.arrival_img{
+    position: relative;
+    max-width: 262px;
+}
+.arrival_section{
+    display: flex;
+    gap: 24px;
+}
+/* .rating_img{ 
+    max-height: 16px;
+} */
+
+.arrival_article_bar{
+   display: flex;
+   justify-content: space-between;
+}
+.article_more_section{
+    display: flex;
+    gap: 5px;
+}
+.arrival_show_bar{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 80px 0 80px 0;
+}
+
+.arrival_discount{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: absolute;
+    z-index: 1;
+    padding: 16px;
+}
+.discount_text{
+     padding: 4px 14px;
+     background: #ffff;
+    border-radius: 4px;
+}
+.discount_percent{
+    padding: 4px 14px;
+    background: #38CB89;
+    border-radius: 4px;
+    color: white;
+}
