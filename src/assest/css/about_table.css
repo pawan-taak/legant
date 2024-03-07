@@ -28,23 +28,35 @@
 .about_tables{
     display: flex;
     flex-direction: column;
+    /* gap:16px; */
+}
+.about_tray_table{
+    padding: 16px 0;
 }
 .para{
     max-width: 508px;
     width: 100%;
+    padding: 0 0 16px;
 }
 .price_discount{
     display: flex;
     gap: 12px;
+    padding: 0 0 24px;
 }
 .discount{
     color: #6C7275;
     text-decoration: line-through;
 }
+.about_offer{
+    padding: 24px 0 0;
+}
 .offer-timing{
     display: flex;
     gap: 20px;
     padding: 20px 0;
+}
+.measureing{
+    padding: 24px 0 8px;
 }
 .meas_heading{
     color:#6C7275 ;
@@ -86,6 +98,7 @@
 .cart_section{
     display: flex;
     gap: 24px;
+    padding: 32px 0 16px;
 }
 
 .wishlist{
@@ -105,7 +118,7 @@
     gap: 8px;
 }
 .cart_btn{
-    padding: 20px 0;
+    padding: 0 0 32px;
 }
 .add_cart{
     max-width: 508px;
@@ -118,8 +131,14 @@
 .no_category1{
     display: flex;
     gap: 98px;
+    padding: 24px 0 8px;
+    color: #807E7E;
 }
 .no_category2{
     display: flex;
     gap: 58px;
+    color: #807E7E;
+}
+.no1{
+    color: black;
 }
