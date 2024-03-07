@@ -21,16 +21,17 @@
   display: flex;
   justify-content: space-between;
   padding: 16px 0;
+  align-items: center;
 }
 
 .menu_text_bar{
   display: flex;
   gap: 40px;
-  align-items: center;
+ 
 }
 
 .header_icon_section{
 display: flex;
 gap: 16px;
-align-items: center;
+ 
 }
