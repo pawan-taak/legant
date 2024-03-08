@@ -299,11 +299,9 @@ img {
 
 }
 
-@media(max-width:648px) {
-
+@media(max-width:768px) {  
 
   .h_primary {
-
     font-family: Poppins;
     font-size: 28px;
     font-weight: 500;
@@ -546,5 +544,9 @@ img {
 
   }
 
+
+}
+
+@media(max-width:320px){
 
 }

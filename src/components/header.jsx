@@ -33,7 +33,7 @@ function Header() {
                             <img src={require('../assest/img/header_img/search.png')} alt="" className='search-btn' />
                         </div>
     
-                        <img src={require('../assest/img/header_img/Vector.png')} alt="" />
+                        <img src={require('../assest/img/header_img/Vector.png')} alt="" className='vector_img'/>
                         <img src={require('../assest/img/header_img/shop_cart.png')} alt="" />
                         <img src={require('../assest/img/header_img/Frame.png')} alt="" />
                     </div>
