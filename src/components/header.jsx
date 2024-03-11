@@ -1,8 +1,17 @@
 import '../../src/assest/css/header.css'
+import { useState } from 'react'
+import ToggleBtn from '../snippets/toggle_btn'
+import '../assest/css/toggle_btn.css'
 
 
 
 function Header() {
+    let [show, setShow] = useState(false)
+
+    const handleExpand = () => {
+        const search = document.querySelector(".search-input");
+        search.classList.toggle("search-expanded");
+    };
     return (
         <>
             <div className="background_header">
@@ -18,8 +27,44 @@ function Header() {
             {/* navbar section */}
 
             <div className='container'>
+
                 <div className='menu_bar_section'>
-                    <div><h2>3legant.</h2></div>
+                    <div className='toggle_with_log'>
+                        <div className="toggle_bar">
+                            <button onClick={() => { setShow(true) }} className="toggle_button">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={24}
+                                    height={24}
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                >
+                                    <path
+                                        d="M3 12H21"
+                                        stroke="black"
+                                        strokeWidth={2}
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                    />
+                                    <path
+                                        d="M3 6H21"
+                                        stroke="black"
+                                        strokeWidth={2}
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                    />
+                                    <path
+                                        d="M3 18H21"
+                                        stroke="black"
+                                        strokeWidth={2}
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                        <h2>3legant.</h2>
+                    </div>
                     <ul className='menu_text_bar h_xls_heading'>
                         <li>Home</li>
                         <li>Shop</li>
@@ -28,21 +73,24 @@ function Header() {
                     </ul>
                     <div className='header_icon_section'>
 
-                        <div className='search-bar'>
-                            <input type="text"  placeholder="type here..." className='textbox'/>
-                            <img src={require('../assest/img/header_img/search.png')} alt="" className='search-btn' />
+                      
+
+                        <div className="search-bar">
+                            <img src={require('../assest/img/header_img/search.png')} alt="" onClick={handleExpand} className="search-wrapper" />
+                            <input className="search-input" type="search" placeholder="Search keyword" />
                         </div>
-    
-                        <img src={require('../assest/img/header_img/Vector.png')} alt="" className='vector_img'/>
+
+                        <img src={require('../assest/img/header_img/Vector.png')} alt="" className='vector_img' />
                         <img src={require('../assest/img/header_img/shop_cart.png')} alt="" />
                         <img src={require('../assest/img/header_img/Frame.png')} alt="" />
                     </div>
                 </div>
-
-
-
             </div>
 
+            {
+
+                <ToggleBtn show={show} setShow={setShow} />
+            }
 
 
         </>

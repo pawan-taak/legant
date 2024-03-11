@@ -41,15 +41,13 @@ function Arrival() {
                             <img src={require('../assest/img/hero_img/arrow-right.png')} alt="" className='article_arrow' />
                         </div>
                     </div>
-                    <div className="arrival_section"> 
+                    <div className="arrival_section">
 
-                        <div className="arrival_discount home_weight_first">
-                                <p className="discount_text">NEW</p>
-                                <p className="discount_percent">-50%</p>                           
-                          </div>                          
+
+
                         {
-                            
                             data.map((item, index) => {
+                                
                                 return (
                                     <>
                                         <div>

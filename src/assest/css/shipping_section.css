@@ -23,15 +23,16 @@
 
 
 
-@media(max-width:769px){
+@media(max-width:769px) {
     .shipping_section {
         display: flex;
         gap: 15px;
         padding: 48px 0;
     }
-.shipping_text_bar{
-    padding: 30px 20px;
-}
+
+    .shipping_text_bar {
+        padding: 30px 20px;
+    }
 }
 
 
@@ -49,6 +50,8 @@
     }
 
     .shipping_text_bar {
+        max-width: 166px;
+        width: 100%;
         padding: 32px 16px;
     }
 }
@@ -73,12 +76,12 @@
 
 }
 
-@media(max-width:320px){
+@media(max-width:320px) {
 
-.shipping_section{
-    display: flex;
-    flex-direction: column;
-}
+    .shipping_section {
+        display: flex;
+        flex-direction: column;
+    }
 
 
 
