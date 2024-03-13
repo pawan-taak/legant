@@ -7,7 +7,6 @@ import { BrowserRouter, Route, Routes,useLocation } from 'react-router-dom';
 import SignIn from './components/page/signin';
 import SignUp from './components/page/signup';
 import { useEffect, useState } from 'react';
-// import { useLocation } from 'react-router-dom';
 
 function App() {
   const location = useLocation();

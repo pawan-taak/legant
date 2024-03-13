@@ -3,9 +3,10 @@ import '../assest/css/about_section.css'
 function AboutSection() {
     return (
         <>
-            <div className='container'>
+        
                 <div className='about_main_section'>
                     <img src={require('../assest/img/hero_img/about_img.png')} alt="" className='about_image' />
+                     
                     <div className='about_text_bar'>
                         <p className='home_weight_first about_sale_up'>SALE UP TO 35% OFF</p>
                         <h2 className='hero_big_heading'>HUNDREDS of New lower prices!</h2>
@@ -13,7 +14,7 @@ function AboutSection() {
 
                     </div>
                 </div>
-            </div>
+            
 
             {/* article section */}
 

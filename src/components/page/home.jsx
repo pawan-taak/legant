@@ -16,6 +16,7 @@ const Home = () => {
             <HeroSection />
             <Arrival />
             <Shipping />
+            <YourCart/>
             <AboutSection />
             <Shop />
             <Filter />

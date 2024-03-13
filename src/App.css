@@ -171,7 +171,7 @@ img {
 
 }
 
-.hero_xl_text {
+.hero_xl_text{
   font-family: Poppins;
   font-size: 20px;
   font-weight: 500;
@@ -191,7 +191,7 @@ img {
 
 }
 
-.hero_weight_first {
+.hero_weight_first{
   font-family: Inter;
   font-size: 18px;
   font-weight: 600;
@@ -220,7 +220,7 @@ img {
 
 }
 
-.home_weight_second {
+.home_weight_second{
   font-family: Inter;
   font-size: 16px;
   font-weight: 600;
@@ -249,7 +249,7 @@ img {
 
 }
 
-.home_primary {
+.home_primary{
   font-family: Inter;
   font-size: 14px;
   font-weight: 600;
@@ -280,7 +280,7 @@ img {
 
 }
 
-.page_secondary {
+.page_secondary{
   font-family: Inter;
   font-size: 12px;
   font-weight: 600;
@@ -299,11 +299,9 @@ img {
 
 }
 
-@media(max-width:648px) {
-
+@media(max-width:768px) {  
 
   .h_primary {
-
     font-family: Poppins;
     font-size: 28px;
     font-weight: 500;
@@ -546,5 +544,9 @@ img {
 
   }
 
+
+}
+
+@media(max-width:320px){
 
 }

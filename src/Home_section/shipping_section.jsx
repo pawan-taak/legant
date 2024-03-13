@@ -21,7 +21,7 @@ function Shipping() {
 
                     <div className='shipping_text_bar'>
                         <img src={require('../assest/img/hero_img/lock.png')} alt="#" />
-                        <p className='hero_xl_text'>Secure Payments</p>
+                        <p className='hero_xl_text '>Secure Payments</p>
                         <p className='home_secondary'>Secured by Stripe</p>
                     </div>
 

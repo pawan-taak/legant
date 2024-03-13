@@ -37,7 +37,7 @@ function HeroSection() {
                     <div className='shop_bedroom_section'>
                         <div className='shop_info_common'>
                             <p className='hero_medium_heading'>Bedroom</p>
-                            <div className='shop_next_arrow'>
+                            <div className='shop_next_arrow_common'>
                                 <p className='shop_text home_weight_third'>Shop Now</p>
                                 <img src={require('../assest/img/hero_img/arrow-right.png')} alt="" />
                             </div>
@@ -49,7 +49,7 @@ function HeroSection() {
                     <div className='shop_bedroom_section'>
                         <div className='shop_info_common'>
                             <p className='hero_medium_heading'>Kitchen</p>
-                            <div className='shop_next_arrow'>
+                            <div className='shop_next_arrow_common'>
                                 <p className='shop_text home_weight_third'>Shop Now</p>
                                 <img src={require('../assest/img/hero_img/arrow-right.png')} alt="" />
                             </div>
