@@ -1,110 +1,185 @@
-.main-shoping-section{
+.main-shoping-section {
     display: flex;
-    gap: 24px;
     padding-top: 50px;
+    justify-content: space-between;
 }
-.icon-img{
+
+.icon-img {
     max-width: 18px;
 }
-.filter{
+
+.filter {
     display: flex;
     flex-direction: column;
     gap: 32px;
     max-width: 262px;
     width: 100%;
 }
-.CATEGORIES{
+
+.categories {
     overflow: auto;
     max-height: 265px;
     height: 100%;
 }
-.text-filter{
+
+.text-filter {
     display: flex;
     gap: 8px;
+    align-items: center;
 }
-.categories-room{
+
+.text-filter img {
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.categories-room {
     display: flex;
     flex-direction: column;
     gap: 12px;
     padding-top: 16px;
 }
-.all-room{
+
+.all-room {
     color: #807E7E;
     ;
 }
-.all-room:hover{
+
+.all-room:hover {
     color: black;
     text-decoration: underline;
-    
+
 }
-.price{
+
+.price {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    padding-top: 12px;  
+    padding-top: 12px;
 }
-.coman-text{
+
+.coman-text {
     display: flex;
     justify-content: space-between;
 }
 
 
-.living-text{
+.living-text {
     display: flex;
     justify-content: space-between;
 
 }
-.living-img{
+
+.living-img {
     max-width: 24px;
     max-height: 24px;
 
 }
-.left-living{
+
+.left-living {
     display: flex;
-    gap: 419px;
     align-items: center;
 }
-.img-left-section{
+
+.img-left-section {
     display: flex;
     gap: 24px;
+    align-items: center;
 }
-.living-discount{
+
+.short-text {
+    white-space: nowrap;
+}
+
+.living-discount {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     gap: 24px;
 }
-.living-discount :hover{
 
-
-}
-.living-section{
+.living-section {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    max-width: 834px;
-    width: 100%;
+    /* max-width: 834px; */
+    /* width: 100%; */
 }
-.show-button{
+
+.show-button {
     border: 1px solid black;
-    max-width:163px;
+    max-width: 163px;
     width: 100%;
     height: 40px;
-    color: black; background-color: white;
-    
+    color: black;
+    background-color: white;
+
     border-radius: 25px;
 }
-.show-button:hover{
+
+.show-button:hover {
     color: white;
     background-color: black;
 
 }
-.button{
+
+.button {
     display: flex;
     justify-content: center;
     padding-top: 40px;
     padding-bottom: 80px;
 }
 
-/* mobles */
+.mob_fitler_section {
+    display: none;
+}
 
+/* mobles */
+@media(max-width:375px) {
+
+    .filter {
+        display: none;
+    }
+
+    .living-text {
+        display: none;
+    }
+
+    .living-discount {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .mob_fitler_section {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 163px;
+        row-gap: 16px;
+        padding: 32px 0;
+        white-space: nowrap;
+    }
+
+    .mob-icon-img {
+        max-width: 18px;
+        max-height: 16px;
+    }
+
+    .mob_fitler_text {
+        display: flex;
+        gap: 8px;
+    }
+
+.main-shoping-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.mob_select_img{
+    display: flex;
+    gap: 8px;
+}
+
+
+}

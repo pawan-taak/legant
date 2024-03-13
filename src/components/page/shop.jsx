@@ -15,7 +15,8 @@ function Shop(){
                     <p className="hero_sm_text">Let’s design the place you always imagined.</p>
                 </div>
                 <div className="img-section">
-                    <img src={require("../../assest/img/shop-img/shop-main-img.png")} alt="" />
+                    <img src={require("../../assest/img/shop-img/shop-main-img.png")} className="main-shop" alt="" />
+                    <img src={require("../../assest/img/shop-img/mb-shop-img.png")} className="mb-shop"/>
                 </div>
 
             </div>
