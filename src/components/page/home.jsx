@@ -19,8 +19,6 @@ const Home = () => {
             <Shipping />
             <YourCart/>
             <AboutSection />
-            <Shop />
-            <Filter />
         
         </>
     )

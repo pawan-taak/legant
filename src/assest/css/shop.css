@@ -1,10 +1,13 @@
-
+.main-shop-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .main-shop-text{
   display: flex;
   flex-direction: column;
   position: absolute;
-padding-left: 400px;
-padding-top: 118px;
+
 text-align: center;
   z-index: 1;
   gap: 16px;
@@ -23,9 +26,24 @@ text-align: center;
 }
 .img-section{
   position: relative;
-  max-width: 1120px;
-  width: 100%;
 }
 .center-icon{
   max-width: 12px;
+}
+.mb-shop{
+  display: none;
+}
+@media (max-width:375px) {
+  .main-shop{
+    display: none;
+  }
+  .mb-shop{
+    display: block;
+  }
+
+  .main-shop-text{
+    max-width: 311px;
+    width: 100%;
+  }
+  
 }

@@ -2,6 +2,8 @@ import '../../src/assest/css/header.css'
 import { useState } from 'react'
 import ToggleBtn from '../snippets/toggle_btn'
 import '../assest/css/toggle_btn.css'
+import { Link } from 'react-router-dom'
+
 
 
 
@@ -66,8 +68,8 @@ function Header() {
                         <h2>3legant.</h2>
                     </div>
                     <ul className='menu_text_bar h_xls_heading'>
-                        <li>Home</li>
-                        <li>Shop</li>
+                        <li><Link to={'/home'}>Home</Link></li>
+                        <li><Link to={'/shop'}>Shop</Link></li>
                         <li>Product</li>
                         <li>Contact Us</li>
                     </ul>

@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes,useLocation } from 'react-router-dom';
 import SignIn from './components/page/signin';
 import SignUp from './components/page/signup';
 import { useEffect, useState } from 'react';
+import Shop from './components/page/shop';
 
 function App() {
   const location = useLocation();
@@ -16,7 +17,8 @@ function App() {
         !location.pathname?.includes('/signup') && !location.pathname?.includes('/signin') && <Header />
       }
       <Routes>
-        <Route element={<Home />} path="/" />
+        <Route element={<Home />} path="/home" />
+        <Route element={<Shop/>} path='/shop'/>
         <Route element={<SignUp />} path="/signup" />
         <Route element={<SignIn />} path="/signin" />
       </Routes>
