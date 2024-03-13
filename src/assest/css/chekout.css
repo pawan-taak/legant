@@ -1,0 +1,188 @@
+.check_out_section{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 64px;
+}
+.check_out_heading{
+    padding: 0 0 40px;
+}
+
+.about-order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.order_through{
+    display: flex;
+    color: grey;
+    gap: 32px;
+    padding: 0 0 80px;
+}
+.check_out_right{
+    max-width: 643px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.check_out_left{
+    max-width: 413px;
+    width: 100%;
+}
+.contact_info_heading{
+    padding:0 0 12px;
+}
+.about_input_info{
+    padding: 12px 0 12px;
+}
+.common_checkout{
+    border-radius: 6px;
+    border-color: #6C7275;
+    border-collapse: collapse;
+    width: 285px;
+}
+.about_shipping1{
+    padding: 40px 24px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.about_shipping2{
+    padding: 40px 24px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.about_shipping3{
+    padding: 40px 24px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.first_last_name{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.payment_methode{
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+.pay_methode{
+    padding: 10px 0;
+}
+.common_checkout_long{
+    max-width: 595px;
+    width: 100%;
+    padding: 5px;
+}
+.about_shipping_left{
+    padding: 40px 24px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.tables{
+    max-width: 80px;
+    width: 100%;
+}
+.order_discount{
+    display: flex;
+    flex-direction: column;
+}
+.cart_btn{
+    display: flex;
+    /* border: 1px solid black; */
+    border-color: #6C7275;
+    width: 100px;
+}
+.apply_section{
+    display: flex;
+    gap: 10px;
+}
+.input_section{
+    max-width: 258px;
+    width: 100%;
+
+}
+.input_info{
+    padding: 12px 26px;
+}
+.apply_btn{
+    max-width: 95px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 12px 26px;
+    border-radius: 8px;
+}
+
+.order_total{
+    display: flex;
+    justify-content: space-between;
+}
+.price_discount{
+    color: #38CB89;
+    padding:0px;
+}
+
+.l{
+    display: flex;
+    gap: 16px;
+}
+.order_details{
+    display: flex;
+    gap: 7px;
+}
+
+.shipping:hover{
+    /* white-space: nowrap; */
+    color:#38CB89 ;
+    text-decoration: underline;
+}
+.check_out_info:hover{
+    display: flex;
+    color:#23262F ;
+    text-decoration: underline;
+    /* white-space: nowrap; */
+}
+.order_complete:hover{
+    display: flex;
+    color:#B1B5C3 ;
+    text-decoration: underline;
+}
+
+.checked{
+    border: 1px solid ;
+    max-width: 40px ;
+    width: 100%;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #38CB89;
+    border-color: none;
+    color: white;
+    text-align: center;
+  padding: 8px;
+}
+.checkeout_deatils{
+    /* white-space: nowrap; */
+    border: 1px solid ;
+    max-width: 40px ;
+    width: 100%;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #23262F;
+    border-color: none;
+    color: white;
+    text-align: center;
+  padding: 8px;
+}
+.order_info{
+    border: 1px solid ;
+    max-width: 40px ;
+    width: 100%;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #B1B5C3;
+    border-color: none;
+    color: white;
+    text-align: center;
+  padding: 8px;
+}

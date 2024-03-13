@@ -17,7 +17,7 @@ function App() {
         !location.pathname?.includes('/signup') && !location.pathname?.includes('/signin') && <Header />
       }
       <Routes>
-        <Route element={<Home />} path="/home" />
+        <Route element={<Home />} path="/" />
         <Route element={<Shop/>} path='/shop'/>
         <Route element={<SignUp />} path="/signup" />
         <Route element={<SignIn />} path="/signin" />
