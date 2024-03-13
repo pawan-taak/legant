@@ -4,6 +4,7 @@ import HeroSection from "../../Home_section/hero_section"
 import Shipping from "../../Home_section/shipping_section"
 import Filter from "./filter"
 import Shop from "./shop"
+import YourCart from "../cart_section"
 
 
 
