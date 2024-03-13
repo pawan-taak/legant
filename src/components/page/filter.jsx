@@ -119,10 +119,7 @@ function Filter() {
                         </div>
                     <div>
                         <div className="living-discount">
-                    <div className="arrival_discount  home_weight_first">
-                                <p className="discount_text">NEW</p>
-                                <p className="discount_percent">-50%</p>                           
-                          </div>   
+                   
                    {
                     data.map((item)=>{
                          return(
