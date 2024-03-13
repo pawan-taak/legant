@@ -72,6 +72,16 @@ article section */
     gap: 8px;
 }
 
+/* hover section */
+.hero_big_heading:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+
 @media(max-width:769px) {
     .about_main_section {
         display: flex;

@@ -20,7 +20,11 @@
     gap: 16px;
 }
 
-
+/* hover section */
+.hero_xl_text:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 
 @media(max-width:769px) {

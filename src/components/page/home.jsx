@@ -13,7 +13,7 @@ const Home = () => {
             <HeroSection />
             <Arrival />
             <Shipping />
-            {/* <YourCart/> */}
+            <YourCart/>
             <AboutSection />
         </>
     )
