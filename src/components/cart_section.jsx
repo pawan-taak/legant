@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import '../assest/css/cart_section.css'
 import CommonCard from '../snippets/common_cart';
+import { Link } from 'react-router-dom';
+
 
 
 function YourCart() {
@@ -121,7 +123,8 @@ function YourCart() {
                                 <p className='hero_xxl_text'>Total</p>
                                 <p className='hero_xxl_text'>$1345.00</p>
                             </div>
-                            <button className='cart_button hero_weight_second'>Checkout</button>
+                            <Link to={'/checkout'}><button className='cart_button hero_weight_second'>Checkout</button></Link>
+                            
                         </div>
                         </div>
 

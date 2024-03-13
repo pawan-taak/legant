@@ -87,12 +87,7 @@
     display: flex;
     flex-direction: column;
 }
-.cart_btn{
-    display: flex;
-    /* border: 1px solid black; */
-    border-color: #6C7275;
-    width: 100px;
-}
+
 .apply_section{
     display: flex;
     gap: 10px;

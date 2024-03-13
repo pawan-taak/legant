@@ -65,7 +65,8 @@ function Header() {
                                 </svg>
                             </button>
                         </div>
-                        <h2>3legant.</h2>
+                        <Link to={'/home'}><h2>3legant.</h2></Link>
+                        
                     </div>
                     <ul className='menu_text_bar h_xls_heading'>
                         <li><Link to={'/home'}>Home</Link></li>
