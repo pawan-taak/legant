@@ -1,0 +1,110 @@
+.main-shoping-section{
+    display: flex;
+    gap: 24px;
+    padding-top: 50px;
+}
+.icon-img{
+    max-width: 18px;
+}
+.filter{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 262px;
+    width: 100%;
+}
+.CATEGORIES{
+    overflow: auto;
+    max-height: 265px;
+    height: 100%;
+}
+.text-filter{
+    display: flex;
+    gap: 8px;
+}
+.categories-room{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 16px;
+}
+.all-room{
+    color: #807E7E;
+    ;
+}
+.all-room:hover{
+    color: black;
+    text-decoration: underline;
+    
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 12px;  
+}
+.coman-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.living-text{
+    display: flex;
+    justify-content: space-between;
+
+}
+.living-img{
+    max-width: 24px;
+    max-height: 24px;
+
+}
+.left-living{
+    display: flex;
+    gap: 419px;
+    align-items: center;
+}
+.img-left-section{
+    display: flex;
+    gap: 24px;
+}
+.living-discount{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 24px;
+}
+.living-discount :hover{
+
+
+}
+.living-section{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 834px;
+    width: 100%;
+}
+.show-button{
+    border: 1px solid black;
+    max-width:163px;
+    width: 100%;
+    height: 40px;
+    color: black; background-color: white;
+    
+    border-radius: 25px;
+}
+.show-button:hover{
+    color: white;
+    background-color: black;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+/* mobles */
+

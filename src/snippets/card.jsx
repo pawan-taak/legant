@@ -1,7 +1,7 @@
 import React from "react";
 
 const Card = ({ data }) => {
-
+    console.log(data)
     return (
 
         <>
@@ -9,9 +9,14 @@ const Card = ({ data }) => {
                 <p className="discount_text">NEW</p>
                 <p className="discount_percent">-50%</p>
             </div>
-            <img src={require(`../assest/img/hero_img/${data.image}`)} alt="" className="arrival_img" />
+            <div className="shoping">
+            {
+                data?.image && <><img src={require(`../assest/img/hero_img/${data?.image}`)} alt="" className="arrival_img" /></>
+            }
+            
             <p className="home_weight_second">{data?.title}</p>
             <p className="home_primary">{data?.price}</p>
+            </div>
         </>
 
 
