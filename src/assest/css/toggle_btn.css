@@ -94,7 +94,7 @@
         flex-direction: column;
         justify-content: space-between;
         padding: 50px;
-        position: fixed;
+        position: absolute;
         width:100%;
         height: 812px;
         background: #fff;
