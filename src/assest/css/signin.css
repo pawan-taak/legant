@@ -20,11 +20,11 @@
 }
 
 .signin-left-section {
-    BORDER: 1PX SOLID white;
+    border: 1PX SOLID white;
     display: flex;
     flex-direction: column;
-    MAX-WIDTH: 575PX;
-    WIDTH: 100%;
+    max-width: 575PX;
+    width: 100%;
 }
 
 .signin-btn {
@@ -94,4 +94,9 @@
     gap: 8px;
     align-items: center;
     color: #CCC;
+}
+
+
+@media (max-width:375px){
+
 }

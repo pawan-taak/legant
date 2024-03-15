@@ -1,14 +1,14 @@
 .main-section{
     display: flex; 
-    gap: 50px;
+    
      
 }
 
 .rigth-section{
     display: flex;
     justify-content: center;
-    max-height: 400px;
-    height: 100%;
+    /* max-height: 400px;
+    height: 100%; */
          
 }
 .main-text{
@@ -19,16 +19,20 @@
 }
 .img-signup{
     position: relative;
+    max-width: 736px;
+    height: 100%;
   
 }
 .left-section{
+    padding-top: 45px;
+    
    
      
      
     /* JUSTIFY-CONTENT: center; */
 }
 .signupbtn{
-    max-width: 354px;
+    max-width: 384px;
     width: 100%;
     background-color: black;
     color: white;
@@ -41,7 +45,9 @@
     
     display: flex;
     flex-direction: column;
-    max-width: 456px;
+    max-width: 736px;
+    padding-top: 68px;
+    padding-left: 50px;
     width: 100%;  
     gap: 24px;
    
@@ -51,6 +57,7 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+    max-width: 375px;
     /* padding-top: 25px; */
      
 }
@@ -86,3 +93,15 @@
     max-width: 25px;
 }
 
+
+@media (max-width:375px){
+    .main-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-signup{
+        max-width: 375px;
+        width: 100%;
+    }
+
+}
