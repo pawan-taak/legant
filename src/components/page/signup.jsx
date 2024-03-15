@@ -7,7 +7,8 @@ function SignUp() {
             <div className="container">
                 <div className="main-section">
                     <div className="rigth-section">
-                        <h2 className="hero-x-heading main-text">3legant.</h2>
+                
+                        <h2 className="hero-x-heading main-text"><Link to={'/home'}>3legant.</Link></h2>
                         <div className="img-signup">
                             <img src={require("../../assest/img/signup.png.png")} alt="#" />
                         </div>
