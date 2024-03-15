@@ -66,7 +66,7 @@ function Header() {
                             </button>
                         </div>
                         <Link to={'/home'}><h2>3legant.</h2></Link>
-                        
+
                     </div>
                     <ul className='menu_text_bar h_xls_heading'>
                         <li><Link to={'/home'}>Home</Link></li>
@@ -76,14 +76,14 @@ function Header() {
                     </ul>
                     <div className='header_icon_section'>
 
-                      
+
 
                         <div className="search-bar">
                             <img src={require('../assest/img/header_img/search.png')} alt="" onClick={handleExpand} className="search-wrapper" />
                             <input className="search-input" type="search" placeholder="Search keyword" />
                         </div>
+                        <Link to={'/signup'}> <img src={require('../assest/img/header_img/Vector.png')} alt="" className='vector_img' /></Link>
 
-                        <img src={require('../assest/img/header_img/Vector.png')} alt="" className='vector_img' />
                         <img src={require('../assest/img/header_img/shop_cart.png')} alt="" />
                         <img src={require('../assest/img/header_img/Frame.png')} alt="" />
                     </div>
