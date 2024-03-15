@@ -5,20 +5,20 @@ function CheckOut() {
     const [count, setcount] = useState(0)
     const order = [
         {
-            img: 'black_table',
+            image: 'black_table.png',
             title: 'Tray Table',
             color: 'Black',
             price: '$38.00'
 
         },
         {
-            img: 'red_table',
+            image: 'red_table.png',
             title: 'Tray Table',
             color: 'Red',
             price: '$38.00'
         },
         {
-            img: 'table_lamp',
+            image: 'table_lamp.png',
             title: 'Table lamp',
             color: 'gold',
             price: '$39.00'
@@ -39,7 +39,7 @@ function CheckOut() {
                                 <div className="checkeout_deatils">2</div>
                                 <div className="check_out_info">Checkout details</div>
                             </div>
-                            
+
                             <div className="order_details">
                                 <div className="order_info">3</div>
                                 <div className="order_complete">Order complete</div>
@@ -127,6 +127,7 @@ function CheckOut() {
 
                             <div className="about_shipping3">
                                 <h2 className="hero_xl_text contact_info_heading ">Payment method</h2>
+                                <div className="payment_type">
 
                                 <div className="payment_methode common_checkout_long">
                                     <input className="home_weight_fourth" type="radio" placeholder="Pay by Card Credit" />
@@ -136,6 +137,8 @@ function CheckOut() {
                                     <input className="home_weight_fourth" type="radio" placeholder="Paypal" />
                                     <label>Paypal</label>
                                 </div>
+                                </div>
+                                
 
                                 <div>
                                     <lable className='page_primary about_input_info'>CARD NUMBER</lable><br />
@@ -163,25 +166,30 @@ function CheckOut() {
                         <div className="check_out_left">
                             <div className="about_shipping_left">
                                 <h2>Order summary</h2>
-                                <div>
+                                <div className="img_lemp_section">
 
                                     {
                                         order.map((item, index) => (
                                             <div key={index} className="l">
-                                                <img className="tables" src={require('../assest/img/about_table_img/table_lamp.png')} />
+                                                {/* <img className="tables" src={require('../assest/img/about_table_img/table_lamp.png')} /> */}
+                                                <img className="tables" src={require(`../assest/img/about_table_img/${item?.image}`)} />
                                                 <div>
                                                     <h2 className="home_primary">{item.title}</h2>
-                                                    <p className="page_middle">{item.color}</p>
+                                                    <p className="page_middle">color:{item.color}</p>
 
-                                                    <div className="cart_btn">
-                                                        <button onClick={() => count > 0 && setcount(count - 1)}>-</button>
+                                                    <div className="cart_product">
+                                                        <button className="sub_add_btn" onClick={() => count > 0 && setcount(count - 1)}>-</button>
                                                         <p className="page_secondary">{count}</p>
-                                                        <button onClick={() => setcount(count + 1)}>+</button>
+                                                        <button className="sub_add_btn" onClick={() => setcount(count + 1)}>+</button>
                                                     </div>
                                                 </div>
-                                                <p className="home_primary">{item.price}</p>
+                                                <div className="pri">
+
+                                                <p className="home_primary table_price">{item.price}</p>
+                                                </div>
                                                 {/* <hr /> */}
                                             </div>
+
                                         ))
                                     }
                                 </div>
@@ -200,21 +208,26 @@ function CheckOut() {
                                     </div>
                                     <div className="order_total">
                                         <div className="home_weight_fourth">Shipping</div>
-                                        <div>Free</div>
+                                        <div className="home_weight_second">Free</div>
                                     </div>
                                     <div className="order_total">
                                         <div className="home_weight_fourth">Subtotal</div>
-                                        <div>$99.00</div>
+                                        <div className="home_weight_second">$99.00</div>
                                     </div>
-                                    <div className="order_total">
-                                        <h2>Total</h2>
-                                        <div>$234.00</div>
+                                    <hr />
+                                    <div className="order_total ">
+                                        <h2 className="hero_xl_text">Total</h2>
+                                        <div className="hero_xl_text">$234.00</div>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
 
+
+                    </div>
+                    <div className="place_order_btn">
+                        <button className="place_order h_xl_heading">Place Order</button>
 
                     </div>
 

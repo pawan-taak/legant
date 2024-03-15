@@ -9,6 +9,7 @@ function Table() {
     const People_review=[
         {
             heading:'Sofia Harvetz',
+            image:'nicolas_jensen1.png',
             link:[
                 {img:'star_ratings'},
                 { review: 'I bought it 3 weeks ago and now come back just to say “Awesome Product”. I really enjoy it. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupt et quas molestias excepturi sint non provident.' },
@@ -17,6 +18,7 @@ function Table() {
         },
         {
             heading:'Nicolas Jensen',
+            image:'nicolas_jensen.png',
             link:[
                 // {img:'star_ratings'},
                 { review: 'I bought it 3 weeks ago and now come back just to say “Awesome Product”. I really enjoy it. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupt et quas molestias excepturi sint non provident.' },
@@ -25,6 +27,7 @@ function Table() {
         },
         {
             heading:'Nicolas Jensen',
+            image:'nicolas_jensen2.png',
             link:[
                 // {img:'star_ratings'},
                 { review: 'I bought it 3 weeks ago and now come back just to say “Awesome Product”. I really enjoy it. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupt et quas molestias excepturi sint non provident.' },
@@ -33,6 +36,7 @@ function Table() {
         },
         {
             heading:'Nicolas Jensen',
+            image:'nicola_jensen3.png',
             link:[
                 // {img:'star_ratings'},
                 
@@ -42,6 +46,7 @@ function Table() {
         },
         {
             heading:'Nicolas Jensen',
+            image:'sofia_harvetz.png',
             link:[
                 // {img:'star_ratings'},
                 { review: 'I bought it 3 weeks ago and now come back just to say “Awesome Product”. I really enjoy it. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupt et quas molestias excepturi sint non provident.' },
@@ -194,7 +199,8 @@ function Table() {
                     {People_review.map((item,index)=>(
                         <div key={index} className='review_about_table'>
                         <div>
-                        <img className='review_person' src={require('../assest/img/about_table_img/nicolas_jensen.png')}/>
+                        <img className='review_person' src={require(`../assest/img/about_table_img/${item?.image}`)}/>
+                        {/* <img className='review_person' src={require('../assest/img/about_table_img/nicolas_jensen.png')}/> */}
                         </div>
                         <div>
 
