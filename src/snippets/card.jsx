@@ -17,9 +17,9 @@ const Card = ({ data }) => {
                     <p className="discount_text">NEW</p>
                     <p className="discount_percent">-50%</p>
                 </div>
-                <div className="discount_btn">
+                {/* <div className="discount_btn">
                     <Link to={'/yourcart'}><button className="cart_btn">Add to cart</button></Link>
-                </div>
+                </div> */}
                 <Link to={'/table'}><img src={require(`../assest/img/hero_img/${data.image}`)} alt="" className="arrival_img" /></Link>
 
 
