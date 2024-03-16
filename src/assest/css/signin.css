@@ -5,6 +5,8 @@
 
 .sigin_image {
     position: relative;
+    max-width: 736px;
+    height: 100%;
     
 }
 
@@ -98,5 +100,18 @@
 
 
 @media (max-width:375px){
+    .signin-main-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .signin-section-left{
+    padding-left: 15px;
+    padding-top: 40px;
+    padding-right: 0px;
+    max-width: 311px;    
+    }
+    .sigin_image{
+        height: 430px;
+    }
 
 }
