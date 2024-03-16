@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom'
 
 function Header() {
     let [show, setShow] = useState(false)
+    const [dropdown, setDropdown] = useState('')
 
     const handleExpand = () => {
         const search = document.querySelector(".search-input");
@@ -82,7 +83,18 @@ function Header() {
                             <img src={require('../assest/img/header_img/search.png')} alt="" onClick={handleExpand} className="search-wrapper" />
                             <input className="search-input" type="search" placeholder="Search keyword" />
                         </div>
-                        <Link to={'/signup'}> <img src={require('../assest/img/header_img/Vector.png')} alt="" className='vector_img' /></Link>
+
+                        {/* drop down menu */}
+                        <div className="dropdown">
+                            <img src={require('../assest/img/header_img/Vector.png')} alt="" className='vector_img' onClick={() => setDropdown(!dropdown)} />
+                            <div className={dropdown ? "dropdown-out" : "dropdown-in"}>
+                                <div className='dropdown-content' >
+                                    <a href="#"><Link to={'/signin'}>SignIn</Link></a>
+                                    <a href="#"><Link to={'/signup'}>SignUp</Link></a>
+                                </div>
+                            </div>
+                        </div>
+
 
                         <img src={require('../assest/img/header_img/shop_cart.png')} alt="" />
                         <img src={require('../assest/img/header_img/Frame.png')} alt="" />
