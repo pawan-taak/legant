@@ -128,7 +128,7 @@ function Table() {
                                     <img src={require('../assest/img/about_table_img/white_table.png')} />
                                 </div>
                             </div>
-                            <div className='cart_section'>
+                            <div className='product_quantiy'>
                                 <div className='btn_section'>
                                     <button className='btn' onClick={() => count > 0 && setcount(count - 1)}>-</button>
                                     <button className='home_weight_second btn'>{count}</button>
@@ -138,15 +138,18 @@ function Table() {
                                 <div className='wishlist'>
                                     {/* <div> */}
                                     <img className='like_img' src={require('../assest/icon/about_table_icon/like.png')} />
-                                    <h2 className='hero_weight_second'>Wishlist</h2>
+                                    <h2 className='hero_weight_second h_xls_heading'>Wishlist</h2>
                                     {/* </div> */}
                                 </div>
                             </div>
-                            <div className='cart_btn'>
+                            <div className='add_cart'>
                                 <button className='add_cart hero_weight_second'>Add to Cart</button>
                             </div>
+                            <div className='cart_hr'>
                             <hr />
-                            <div>
+
+                            </div>
+                            <div className='address_about_table'>
                                 <div className='no_category1'>
                                     <h2 className='page_middle '>SKU</h2>
                                     <div className='no1'>1117</div>
@@ -161,8 +164,11 @@ function Table() {
 
                     <div className='faq-section hero_weight_second'>
                         <div className='review'>Additional Info</div>
+                        <hr />
                         <div className='review'>Question</div>
+                        <hr />
                         <div className='review'>Review</div>
+                        <hr />
                     </div>
 
                     <div className='customer_reviews'>
@@ -187,7 +193,7 @@ function Table() {
                     </div>
                     <div className='select_section'>
                         <h2 className='hero_small_heading'>11 Reviews</h2>
-                        <div>
+                        <div className='option_choice'>
                             <form>
                                 <select className='select_option home_weight_second'>
                                     <option value="newest">Newset</option>
@@ -202,6 +208,7 @@ function Table() {
                         <img className='review_person' src={require(`../assest/img/about_table_img/${item?.image}`)}/>
                         {/* <img className='review_person' src={require('../assest/img/about_table_img/nicolas_jensen.png')}/> */}
                         </div>
+                        
                         <div>
 
                             <h2 className='hero_xxl_text names_of_person'>{item.heading}</h2>
@@ -214,7 +221,10 @@ function Table() {
                                 <div>Reply</div>
                             </div>
                             </div>
-                            {/* <hr className='hr_line'/> */}
+                                <div className='hr_line'>
+                                <hr />
+                                </div>
+                
                         </div>
                            
                         </div>

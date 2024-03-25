@@ -40,6 +40,7 @@
 
 .about_input_info {
     padding: 12px 0 12px;
+    border-style: none;
 }
 
 .common_checkout {
@@ -159,7 +160,7 @@ gap: 24px;
     justify-content: space-between;
 }
 
-.price_discount {
+.price_discount_remove{
     color: #38CB89;
     padding: 0px;
 }
@@ -265,9 +266,107 @@ gap: 24px;
 }
 
 /* responsive Page start */
+
+
 @media(max-width:375px){
     
+    .check_out_section{
+        display: flex;
+        flex-direction: column;
+    }
+    .common_checkout{
+        max-width: 128px;
+        width: 100%;
+        gap: 8px;
+    }
+    .first_last_name{
+        display: flex;
+        gap: 8px;
+        white-space: nowrap;
+    }
+    .apply_section{
+        display: flex;
+        flex-direction: column; 
+       }
+     
+       .home_primary{
+        white-space:nowrap;
+       }
+
+     .pri{
+        padding: 0 0 0 40px;
+     }
 }
+@media(max-width:425px){
+    .check_out_section{
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .common_checkout{
+        max-width: 128px;
+        width: 100%;
+        gap: 8px;
+    }
+    .first_last_name{
+        display: flex;
+        gap: 8px;
+        white-space: nowrap;
+    }
+    .apply_section{
+        display: flex;
+        /* flex-direction: column;  */
+        
+       }
+       .apply_btn{
+        padding: 8px 26px;
+       }
+       .input_info{
+        padding: 13px 18px;
+    }
+       .home_primary{
+        white-space:nowrap;
+       }
+
+       .pri{
+        padding: 0 0 0 80px;
+       }
+
+
+}
+@media(max-width:768px){
+    .check_out_section{
+        display: flex;
+        flex-direction: column;
+    }
+    .check_out_left{
+        max-width: 643px;
+    width: 100%;
+    }
+    .order_summery{
+        display: flex;
+        justify-content: center;
+        padding: 0 0 20px;
+    }
+    .l{
+        display: flex;
+        justify-content: space-evenly
+        ;
+    }
+    .apply_section {
+        display: flex;
+        gap: 10px;
+        padding: 24px 27px 16px;
+    }
+    .apply_btn {
+        max-width: 95px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding: 7px 114px;
+        border-radius: 8px;}
+}
+
 
 
 

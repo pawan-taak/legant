@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import '../assest/css/chekout.css'
-
 function CheckOut() {
     const [count, setcount] = useState(0)
     const order = [
@@ -9,7 +8,6 @@ function CheckOut() {
             title: 'Tray Table',
             color: 'Black',
             price: '$38.00'
-
         },
         {
             image: 'red_table.png',
@@ -129,16 +127,16 @@ function CheckOut() {
                                 <h2 className="hero_xl_text contact_info_heading ">Payment method</h2>
                                 <div className="payment_type">
 
-                                <div className="payment_methode common_checkout_long">
-                                    <input className="home_weight_fourth" type="radio" placeholder="Pay by Card Credit" />
-                                    <label>Pay by Card Credit</label>
+                                    <div className="payment_methode common_checkout_long">
+                                        <input className="home_weight_fourth" type="radio" placeholder="Pay by Card Credit" />
+                                        <label>Pay by Card Credit</label>
+                                    </div>
+                                    <div className="payment_methode common_checkout_long">
+                                        <input className="home_weight_fourth" type="radio" placeholder="Paypal" />
+                                        <label>Paypal</label>
+                                    </div>
                                 </div>
-                                <div className="payment_methode common_checkout_long">
-                                    <input className="home_weight_fourth" type="radio" placeholder="Paypal" />
-                                    <label>Paypal</label>
-                                </div>
-                                </div>
-                                
+
 
                                 <div>
                                     <lable className='page_primary about_input_info'>CARD NUMBER</lable><br />
@@ -165,7 +163,7 @@ function CheckOut() {
 
                         <div className="check_out_left">
                             <div className="about_shipping_left">
-                                <h2>Order summary</h2>
+                                <h2 className="order_summery">Order summary</h2>
                                 <div className="img_lemp_section">
 
                                     {
@@ -185,7 +183,7 @@ function CheckOut() {
                                                 </div>
                                                 <div className="pri">
 
-                                                <p className="home_primary table_price">{item.price}</p>
+                                                    <p className="home_primary table_price">{item.price}</p>
                                                 </div>
                                                 {/* <hr /> */}
                                             </div>
@@ -196,15 +194,21 @@ function CheckOut() {
                                 <div className="apply_section">
                                     <div className="input_section">
                                         <input className="input_info" type="text" placeholder="Input" />
+                                       
                                     </div>
                                     <div>
                                         <button className="apply_btn h_xl_heading">Apply</button>
                                     </div>
                                 </div>
+                                {/* <div className="apply_section">
+                                <input className="input_info" placeholder="input "/>
+                                <button className="apply_btn h_xl_heading">Apply</button>
+
+                                </div> */}
                                 <div className="order_discount">
                                     <div className="order_total">
                                         <div className="home_weight_fourth">JenkateMW</div>
-                                        <div className="price_discount">-$25.00[Remove]</div>
+                                        <div className="price_discount_remove">-$25.00[Remove]</div>
                                     </div>
                                     <div className="order_total">
                                         <div className="home_weight_fourth">Shipping</div>
@@ -221,10 +225,7 @@ function CheckOut() {
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-
-
                     </div>
                     <div className="place_order_btn">
                         <button className="place_order h_xl_heading">Place Order</button>
