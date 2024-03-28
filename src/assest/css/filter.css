@@ -16,9 +16,9 @@
     width: 100%;
 }
 
-.categories {
+.categories-room {
     overflow: auto;
-    max-height: 265px;
+    max-height: 240px;
     height: 100%;
 }
 
@@ -48,6 +48,7 @@
 .all-room:hover {
     color: black;
     text-decoration: underline;
+    cursor: pointer;
 
 }
 
@@ -183,4 +184,116 @@
 }
 
 
+
+}
+@media(max-width:320px){
+    .arrival_img{
+        max-height: 150px;
+    }
+    .mob_fitler_section{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 110px;
+        row-gap: 16px;
+    }
+
+}
+@media(max-width:320px){
+    .main-section {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+    .filter {
+        display: none;
+    }
+
+    .living-text {
+        display: none;
+    }
+
+    .living-discount {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .mob_fitler_section {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 163px;
+        row-gap: 16px;
+        padding: 32px 0;
+        white-space: nowrap;
+    }
+
+    .mob-icon-img {
+        max-width: 18px;
+        max-height: 16px;
+    }
+
+    .mob_fitler_text {
+        display: flex;
+        gap: 8px;
+    }
+
+.main-shoping-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.mob_select_img{
+    display: flex;
+    gap: 8px;
+}
+@media (max-width:425px){
+    
+    .filter {
+        display: none;
+    }
+
+    .living-text {
+        display: none;
+    }
+
+    .living-discount {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .mob_fitler_section {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 163px;
+        row-gap: 16px;
+        padding: 32px 0;
+        white-space: nowrap;
+    }
+    
+
+    .mob-icon-img {
+        max-width: 18px;
+        max-height: 16px;
+    }
+
+    .mob_fitler_text {
+        display: flex;
+        gap: 8px;
+    }
+
+.main-shoping-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.mob_select_img{
+    display: flex;
+    gap: 8px;
+}
+    
 }

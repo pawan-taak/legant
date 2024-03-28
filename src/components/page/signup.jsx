@@ -27,7 +27,7 @@ function SignUp() {
                             <input type="password" placeholder="password" className="input-text" />
                             {/* <img src={require("../../assest/img/eys-img.jpg" )} className="icon-img"/> */}
                             <hr />
-                            <p className="home_weight_second checkbox"><input type="checkbox" /> <span className="signup-info">I agree with</span> Privacy Policy <span className="signup-info">and</span> Terms of Use</p>
+                            <p className="h_sm_heading checkbox"><input type="checkbox" /> <span className="signup-info">I agree with</span> Privacy Policy <span className="signup-info">and</span> Terms of Use</p>
                         </div>
                         <button type="submit" onClick={SignUp} className="signupbtn home_weight_third">Sign Up</button>
 
