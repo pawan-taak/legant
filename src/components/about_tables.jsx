@@ -5,6 +5,8 @@ import '../assest/css/about_table.css'
 
 function Table() {
     const [count, setcount] = useState(0)
+    const [mainImg, setMainImg] = useState('bigtable.png')
+
     const ref = useRef(null);
     const People_review=[
         {
@@ -63,7 +65,7 @@ function Table() {
                     <div className='tray_table'>
                         <div className='table_sectoin_right'>
                             <div className='table_img'>
-                                <img className='big_table' src={require('../assest/img/about_table_img/bigtable.png')} />
+                                <img className='big_table' src={require(`../assest/img/about_table_img/${mainImg}`)} />
                             </div>
                             <div className='various_table_img'>
                                 <div><img className=' various_table' src={require('../assest/img/about_table_img/blacktable.png')} /></div>
@@ -122,9 +124,9 @@ function Table() {
                                 <h2 className='home_weight_second meas_heading'>Choose Color </h2>
                                 <h2 className='hero_sm_text'>Black</h2>
                                 <div className='choose_table'>
-                                    <img src={require('../assest/img/about_table_img/black_table.png')} />
+                                    <img src={require('../assest/img/about_table_img/black_table.png')}  onClick={()=>{setMainImg('black_table.png')}}/>
                                     <img src={require('../assest/img/about_table_img/grey_table.png')} />
-                                    <img src={require('../assest/img/about_table_img/red_table.png')} />
+                                    <img src={require('../assest/img/about_table_img/red_table.png')} onClick={()=>{setMainImg('red_table.png')}}/>
                                     <img src={require('../assest/img/about_table_img/white_table.png')} />
                                 </div>
                             </div>
