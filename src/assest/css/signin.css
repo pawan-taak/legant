@@ -36,6 +36,7 @@
     background-color: black;
     color: white;
     border: 1px solid black;
+    border-radius: 15px;
 }
 .signin-btn:hover{
     background-color: white;
@@ -114,4 +115,16 @@
         height: 430px;
     }
 
+}
+@media (max-width:320px){
+    .main-section {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:425px){
+    .main-section{
+        display: flex;
+        flex-direction: column;
+    }
 }

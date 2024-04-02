@@ -47,3 +47,8 @@ text-align: center;
   }
   
 }
+@media (max-width:425px){
+  .main-shop{
+    height: 250px;
+  }
+}

@@ -10,6 +10,8 @@ import Shipping from "../../Home_section/shipping_section"
 
 
 const Home = () => {
+
+
     return (
         <>
             <HeroSection />

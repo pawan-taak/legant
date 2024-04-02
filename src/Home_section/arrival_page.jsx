@@ -1,8 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Card from "../snippets/card";
 import '../assest/css/arrival_page.css'
 
 function Arrival() {
+
+    useEffect(() => {
+        getAllProducts()
+    }, [])
+
+    async function getAllProducts() {
+
+        try {
+
+          let result=  await fetch('http://localhost:3007/user/all');
+        result= await result.json();
+        console.log(result);
+        } catch (error) {
+
+        }
+
+    }
+
     const data = [
 
         {
@@ -47,7 +65,7 @@ function Arrival() {
 
                         {
                             data.map((item, index) => {
-                                
+
                                 return (
                                     <>
                                         <div>
