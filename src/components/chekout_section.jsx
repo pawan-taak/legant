@@ -164,66 +164,75 @@ function CheckOut() {
                         <div className="check_out_left">
                             <div className="about_shipping_left">
                                 <h2 className="order_summery">Order summary</h2>
-                                <div className="img_lemp_section">
+                                <div className="checkout_bar">
 
-                                    {
-                                        order.map((item, index) => (
-                                            <div key={index} className="l">
-                                                {/* <img className="tables" src={require('../assest/img/about_table_img/table_lamp.png')} /> */}
-                                                <img className="tables" src={require(`../assest/img/about_table_img/${item?.image}`)} />
-                                                <div>
-                                                    <h2 className="home_primary">{item.title}</h2>
-                                                    <p className="page_middle">color:{item.color}</p>
+                                    <div className="img_lemp_section">
 
-                                                    <div className="cart_product">
-                                                        <button className="sub_add_btn" onClick={() => count > 0 && setcount(count - 1)}>-</button>
-                                                        <p className="page_secondary">{count}</p>
-                                                        <button className="sub_add_btn" onClick={() => setcount(count + 1)}>+</button>
+                                        {
+                                            order.map((item, index) => (
+                                                <div key={index} className="lamp_section_left about_checkout_left">
+                                                    {/* <img className="tables" src={require('../assest/img/about_table_img/table_lamp.png')} /> */}
+                                                    <img className="tables" src={require(`../assest/img/about_table_img/${item?.image}`)} />
+                                                    <div className="">
+                                                        <h2 className="home_primary">{item.title}</h2>
+                                                        <p className="page_middle">color:{item.color}</p>
+
+                                                        <div className="cart_product">
+                                                            <button className="sub_add_btn" onClick={() => count > 0 && setcount(count - 1)}>-</button>
+                                                            <p className="page_secondary">{count}</p>
+                                                            <button className="sub_add_btn" onClick={() => setcount(count + 1)}>+</button>
+                                                        </div>
                                                     </div>
+                                                    <div className="price_discount_left">
+                                                        <p className="home_primary table_price">{item.price}</p>
+                                                        <div className="cross_icon">
+                                                            <img className="close_icon" src={require('../assest/icon/closeicon.png')} />
+                                                        </div>
+                                                    </div>
+                                                    {/* <hr /> */}
                                                 </div>
-                                                <div className="pri">
 
-                                                    <p className="home_primary table_price">{item.price}</p>
-                                                </div>
-                                                {/* <hr /> */}
+                                            ))
+                                        }
+                                    </div>
+
+                                    <div className="checkout_apply_bar">
+                                        <div className="apply_section">
+                                        
+                                            <input className="input_info" type="text" placeholder="Input" />
+                                            <div>
+
+                                                <button className="apply_btn h_xl_heading">Apply</button>
                                             </div>
+                                            
 
-                                        ))
-                                    }
-                                </div>
-                                <div className="apply_section">
-                                    <div className="input_section">
-                                        <input className="input_info" type="text" placeholder="Input" />
-                                       
-                                    </div>
-                                    <div>
-                                        <button className="apply_btn h_xl_heading">Apply</button>
-                                    </div>
-                                </div>
-                                {/* <div className="apply_section">
-                                <input className="input_info" placeholder="input "/>
-                                <button className="apply_btn h_xl_heading">Apply</button>
+                                        </div>
+                              
+                                        <div className="order_discount">
+                                            <div className="order_total">
+                                                <div className="home_weight_fourth">JenkateMW</div>
+                                                <div className="price_discount_remove">-$25.00[Remove]</div>
+                                            </div>
+                                            <div className="order_total">
+                                                <div className="home_weight_fourth">Shipping</div>
+                                                <div className="home_weight_second">Free</div>
+                                            </div>
+                                            <div className="order_total">
+                                                <div className="home_weight_fourth">Subtotal</div>
+                                                <div className="home_weight_second">$99.00</div>
+                                            </div>
+                                            <hr />
+                                            <div className="order_total ">
+                                                <h2 className="hero_xl_text">Total</h2>
+                                                <div className="hero_xl_text">$234.00</div>
+                                            </div>
+                                        </div>
 
-                                </div> */}
-                                <div className="order_discount">
-                                    <div className="order_total">
-                                        <div className="home_weight_fourth">JenkateMW</div>
-                                        <div className="price_discount_remove">-$25.00[Remove]</div>
                                     </div>
-                                    <div className="order_total">
-                                        <div className="home_weight_fourth">Shipping</div>
-                                        <div className="home_weight_second">Free</div>
-                                    </div>
-                                    <div className="order_total">
-                                        <div className="home_weight_fourth">Subtotal</div>
-                                        <div className="home_weight_second">$99.00</div>
-                                    </div>
-                                    <hr />
-                                    <div className="order_total ">
-                                        <h2 className="hero_xl_text">Total</h2>
-                                        <div className="hero_xl_text">$234.00</div>
-                                    </div>
+
                                 </div>
+
+
                             </div>
                         </div>
                     </div>

@@ -23,11 +23,8 @@ const Card = ({ data }) => {
                 </div>
                 <Link to={'/table'}><img src={require(`../assest/img/hero_img/${data.image}`)} alt="" className="arrival_img" /></Link>
             </div>
-
-
             <p className="home_weight_second">{data?.title}</p>
             <p className="home_primary">{data?.price}</p>
-
         </>
 
 
